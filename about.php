@@ -18,8 +18,10 @@ session_start();
     <link href="assets/css/bootstrap-dark-yellow.min.css" id="bootstrap-style" class="theme-opt" rel="stylesheet"
         type="text/css">
 
-    <link href="assets/libs/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
-    <link href="assets/libs/@iconscout/unicons/css/line.css" type="text/css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css" rel="stylesheet"
+        type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css" type="text/css"
+        rel="stylesheet" />
 
     <link href="assets/css/style-dark-yellow.min.css" id="color-opt" class="theme-opt" rel="stylesheet" type="text/css">
 </head>
@@ -31,7 +33,7 @@ session_start();
     <header id="topnav" class="defaultscroll sticky">
         <div class="container">
             <!-- Logo container-->
-            <a class="logo" href="index.html">
+            <a class="logo" href="index.php">
                 <img src="assets/images/logo-dark.png" class="logo-light-mode" height="24" alt="">
                 <img src="assets/images/logo-light.png" height="24" class="logo-dark-mode" alt="">
             </a>
