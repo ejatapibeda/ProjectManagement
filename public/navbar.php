@@ -40,24 +40,9 @@ $stmt->close();
 
             <!-- Right links -->
             <ul class="navbar-nav ms-auto d-flex flex-row">
-                <!-- Notification dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link me-3 me-lg-0 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink"
-                        role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-                        <i class="fas fa-bell"></i>
-                        <span class="badge rounded-pill badge-notification bg-danger">1</span>
-                    </a>
-                </li>
-
-                <!-- Icon -->
-                <li class="nav-item">
-                    <a class="nav-link me-3 me-lg-0" href="#">
-                        <i class="fas fa-fill-drip"></i>
-                    </a>
-                </li>
                 <!-- Icon -->
                 <li class="nav-item me-3 me-lg-0">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="https://github.com/ejatapibeda/ProjectManagement">
                         <i class="fab fa-github"></i>
                     </a>
                 </li>
