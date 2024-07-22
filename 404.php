@@ -149,10 +149,14 @@
     </div>
     <img id="astronaut" src="" alt="Floating Astronaut" class="astronaut">
 
+    <?php
+    include_once __DIR__ . '/config/config.php';
+    ?>
+
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const img = document.getElementById('astronaut');
-            const baseURL = window.location.origin + `/proj/`; //edit when not using localhost
+            const baseURL = '<?php echo $base_url; ?>';
             img.src = `${baseURL}assets/images/404.png`;
         });
 
