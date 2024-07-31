@@ -1,3 +1,6 @@
+<!-- Puke Begawan Hidayat 10123335 (html) -->
+<!-- Farel Mochamad Gibransyah 10123304 (html) -->
+
 <div class="modal fade" id="inviteMemberModal" tabindex="-1" aria-labelledby="inviteMemberModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">

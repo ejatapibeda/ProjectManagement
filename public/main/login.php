@@ -1,3 +1,6 @@
+<!-- Muhammad Fahreza 10123314  (bagian php)-->
+<!-- Puke Begawan Hidayat 10123335 (html) -->
+<!-- Farel Mochamad Gibransyah 10123304 (html) -->
 <?php
 session_start();
 require '../../config/config.php';
@@ -68,6 +71,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 $conn->close();
 ?>
+
+
 
 <!DOCTYPE html>
 <html lang="en">

@@ -1,3 +1,5 @@
+<!-- Muhammad Fahreza 10123314 -->
+
 <?php
 session_start();
 require '../../config/config.php';
@@ -36,28 +38,3 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $stmt->close();
 }
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Invite Member</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-</head>
-
-<body>
-    <div class="container">
-        <h1 class="mt-5">Invite Member</h1>
-        <form action="invite_member.php" method="post">
-            <input type="hidden" name="project_id" value="<?php echo $project_id; ?>">
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" class="form-control" id="email" name="email" required>
-            </div>
-            <button type="submit" class="btn btn-primary">Send Invite</button>
-        </form>
-    </div>
-</body>
-
-</html>

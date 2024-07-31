@@ -1,3 +1,6 @@
+<!-- Puke Begawan Hidayat 10123335 (html) -->
+<!-- Farel Mochamad Gibransyah 10123304 (html) -->
+
 <!-- Remove Project Modal -->
 <div class="modal fade" id="removeProjectModal" tabindex="-1" aria-labelledby="removeProjectModalLabel"
     aria-hidden="true">

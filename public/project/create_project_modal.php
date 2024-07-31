@@ -1,3 +1,6 @@
+<!-- Puke Begawan Hidayat 10123335 (html) -->
+<!-- Farel Mochamad Gibransyah 10123304 (html) -->
+<!-- Muhammad Fahreza 10123314 (php) -->
 <?php
 if (session_status() == PHP_SESSION_NONE) {
     session_start();

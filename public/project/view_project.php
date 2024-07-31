@@ -1,3 +1,7 @@
+<!-- Muhammad Fahreza 10123314 (php) -->
+<!-- Puke Begawan Hidayat 10123335 (html) -->
+<!-- Farel Mochamad Gibransyah 10123304 (html) -->
+
 <?php
 session_start();
 require '../../config/config.php';
